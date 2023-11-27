@@ -1,0 +1,6 @@
+#!/bin/bash
+
+best school = 88+10;
+print(f"Best School: {88+10}");
+
+python3 $PYCODE
