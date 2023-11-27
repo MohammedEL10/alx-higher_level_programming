@@ -1,5 +1,2 @@
-#/bin/bash
-
-cd #!/usr/bin/python3/0x00-python-hello_world
-
-python myscript.py
+#!/bin/bash
+#python3 $PYFILE
