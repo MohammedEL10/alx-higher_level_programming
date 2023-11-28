@@ -6,7 +6,7 @@ number = random.randint(-10, 10)
        number  is positive;
        
        elif (number == 0)
-       number is zero;
+       0 is zero;
 
        else (number < 0)
        number is negative;
