@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 def magic_calculation(a, b, c):
-    print(magic_calculation.magic_calculation(3, 1, 2))
-    print(magic_calculation.magic_calculation(2, 1, 3))
+    if a < b:
+        return (c)
+    if c > b:
+        return (a + b)
+    return (a*b -c)
+
