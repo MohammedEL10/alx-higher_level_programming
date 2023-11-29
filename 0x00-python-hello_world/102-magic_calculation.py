@@ -1,3 +1,3 @@
 #!/bin/bash
-def myfunc(a, b):
-    return len(a,b)
+def magic_calculation(a, b):
+    return (98 + (a ** b))
