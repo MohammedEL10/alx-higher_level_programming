@@ -1,1 +1,3 @@
 #!/usr/bin/python3
+print("export PYFILE=my_main.py")
+python3 $PYFILEc
