@@ -1,7 +1,8 @@
-#!/usr/bin/python3
-if __name__ == "__main__":
+#!/usr/bin/pytho3
     from add_0 import add
 
-a = 1
-b = 2
-print("{:d} + {:d} = {:d}".format((a, b, add(a, b))\n)
+    a = 1
+    b = 2
+
+    if (__name__ == '__main__'):
+        print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
