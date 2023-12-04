@@ -1,8 +1,9 @@
 #ifndef LISTS_H
 #define LISTS_H
-#include <python.h>
-#include <object.h>
-#include <listobject.h>
+
+#include <sidlib.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
  * struct listint_s - singly linked list
  * @n: integer
