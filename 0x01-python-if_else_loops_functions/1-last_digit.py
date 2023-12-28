@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""if number positive or negative"""
 import random
 number = random.randint(-10000, 10000)
 str1 = "and is greater than 5"
