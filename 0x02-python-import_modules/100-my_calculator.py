@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-def add(a, b):
+if __name__ == "__main__":
+    def add(a, b):
     """My addition function
 
     Args:
