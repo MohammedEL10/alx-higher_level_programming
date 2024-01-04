@@ -63,4 +63,6 @@ class Rectangle:
     """ Returns an “official” string representation of an instance """
     def __repr__(self):
         return ("Rectangle({:d}, {:d})".format(self.__width, self.__height))
+
+    """Print the message Bye rectangle ...when an instance of Rectangle is deleted"""
     print("Bye rectangle...")
