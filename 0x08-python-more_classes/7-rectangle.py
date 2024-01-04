@@ -8,6 +8,7 @@ class Rectangle:
     """ Defines a rectangle """
 
     number_of_instances = 0
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         self.width = width
@@ -61,7 +62,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return (empty_string)
 
-        return ((('#' * self.width) + "\n") * self.height)[:-1]
+        r = (((str(self.print_symbol) * self.width) + "\n") * self.height)[:-1]
+        return (r)
 
     """ Returns an “official” string representation of an instance """
     def __repr__(self):
