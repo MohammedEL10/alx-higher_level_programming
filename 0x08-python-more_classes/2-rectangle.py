@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""new class Rectangle"""
+"""
+New class Rectangle
+"""
 
 
 class Rectangle:
@@ -35,9 +37,9 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
-        """Rectangle area"""
-        def area(self):
-            return (self.__height * self.__width)
+    """ Rectangle area """
+    def area(self):
+        return (self.__height * self.__width)
 
     """ Rectangle perimeter """
     def perimeter(self):
