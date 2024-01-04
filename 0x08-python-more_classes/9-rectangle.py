@@ -8,6 +8,7 @@ class Rectangle:
     """ Defines a rectangle """
 
     number_of_instances = 0
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         self.width = width
@@ -61,7 +62,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return (empty_string)
 
-        return ((('#' * self.width) + "\n") * self.height)[:-1]
+        r = (((str(self.print_symbol) * self.width) + "\n") * self.height)[:-1]
+        return (r)
 
     """ Returns an “official” string representation of an instance """
     def __repr__(self):
@@ -71,3 +73,24 @@ class Rectangle:
     def __del__(self):
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
+
+    """ Returns the biggest rectangle based on the area """
+    def bigger_or_equal(rect_1, rect_2):
+
+        if isinstance(rect_1, Rectangle) is not True:
+            raise TypeError("rect_1 must be an instance of Rectangle")
+        if isinstance(rect_2, Rectangle) is not True:
+            raise TypeError("rect_2 must be an instance of Rectangle")
+
+        if rect_1.area() == rect_2.area():
+            return (rect_1)
+
+        if rect_2.area() > rect_1.area():
+            return (rect_2)
+        else:
+            return (rect_1)
+
+    @classmethod
+    def square(cls, size=0):
+        """ Returns a new Rectangle instance """
+        return (cls(size, size))
