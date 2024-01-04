@@ -65,4 +65,5 @@ class Rectangle:
         return ("Rectangle({:d}, {:d})".format(self.__width, self.__height))
 
     """Instance method called when an instance is deleted"""
-    print("Bye rectangle...")
+    def __del__(self):
+        print("Bye rectangle...")
