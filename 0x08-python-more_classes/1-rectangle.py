@@ -2,7 +2,6 @@
 """new class Rectngle """
 
 
-
 class Rectangle:
     """ Defines a rectangle """
 
