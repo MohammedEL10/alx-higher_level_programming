@@ -3,6 +3,7 @@
 Writes in a text file.
 """
 
+
 def write_file(filename="", text=""):
     """Writes text in filename.
     Args:
