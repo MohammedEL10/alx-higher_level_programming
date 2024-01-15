@@ -3,7 +3,6 @@
 from models.rectangle import Rectangle
 
 
-
 class Square(Rectangle):
     """represent a square."""
 
@@ -77,6 +76,6 @@ class Square(Rectangle):
         }
 
     def __str__(self):
-        """return the print() and str() representation of a Square."""
+        """return the print() and str() representation of a Square"""
         return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
-            self.width)
+                                                 self.width)
