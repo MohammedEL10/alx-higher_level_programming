@@ -1,0 +1,2 @@
+-- script that converts hbtn_0c_0 database to UTF8 
+--You need to convert all of the following to UTF8
