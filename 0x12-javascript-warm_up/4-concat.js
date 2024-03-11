@@ -1,5 +1,2 @@
 #!/usr/bin/node
-
-const Myconponent = ('c is fun'); {
-  console.log(Myconponent);
-}
+console.log(`${process.argv[2]} is ${process.argv[3]}`);
