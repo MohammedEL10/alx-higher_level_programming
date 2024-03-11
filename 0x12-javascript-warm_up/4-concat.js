@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
-const Myconponent = ('is'); {
+const Myconponent = ('c is fun'); {
   console.log(Myconponent);
 }
