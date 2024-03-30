@@ -7,7 +7,6 @@ import requests
 
 
 if __name__ == "__main__":
-    def my_function(repository name, owner name)
     url = "https://api.github.com/repos/{}/{}/commits".format(
         sys.argv[2], sys.argv[1])
 
