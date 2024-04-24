@@ -7,6 +7,6 @@ fs.writeFile(file, 'utf-8', function (err, data) {
   if (err) {
     console.log(err);
   } else {
-    console.log(File written);
+    console.log(data);
   }
 });
